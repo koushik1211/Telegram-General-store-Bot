@@ -449,7 +449,7 @@ if __name__ == '__main__':
             ],
             CLIENTMENUE:[
                 MessageHandler(
-                    telegram.ext.filters.Regex("Cart"),#edhi kodtey dani kidhha dhi call aydhi
+                    telegram.ext.filters.Regex("Cart"),#
                     CheckOut
                 ),
                 MessageHandler(
